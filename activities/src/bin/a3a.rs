@@ -10,4 +10,18 @@
 // * Use an if..else block to determine which message to display
 // * Use the println macro to display messages to the terminal
 
-fn main() {}
+fn main() {
+    if 3 > 5 {
+        print!("hello");
+    } else {
+        print!("goodbye");
+    }
+
+    let x = 500;
+
+    if x == x {
+        print!("hello");
+    } else {
+        print!("goodbye");
+    }
+}
